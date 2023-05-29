@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../css/style_landing.css">
+  <link rel="stylesheet" href="../css/style_subir.css">
+
+  <!-- Head content -->
+</head>
+<body>
+  <!-- HTML content -->
+  <form id="borrarForm" action="/borrar" method="POST">
+    <div>
+      <label for="titulo">Título:</label>
+      <input type="text" id="titulo" name="titulo" required>
+    </div>
+    <button type="submit">Borrar Libro</button>
+  </form>
+  <!-- JavaScript imports -->
+
+  <h1>Títulos disponibles</h1>
+  <div id="bookList" class="book-list">
+
+  </div>
+
+  <script src="../js/landing.js"></script>
+</body>
+</html>

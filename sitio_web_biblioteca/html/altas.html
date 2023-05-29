@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subir Libro</title>
+  <link rel="stylesheet" href="../css/style_subir.css">
+</head>
+<body>
+  <h1>Subir Libro</h1>
+
+  <form id="subirForm" action="/subir" method="POST">
+    <div>
+      <label for="titulo">Título:</label>
+      <input type="text" id="titulo" name="titulo" required>
+    </div>
+    <div>
+      <label for="autor">Autor ID:</label>
+      <input type="number" id="autor" name="autor" required>
+    </div>
+    <div>
+      <label for="isbn">ISBN:</label>
+      <input type="text" id="isbn" name="isbn" required>
+    </div>
+    <div>
+      <label for="fecha">Fecha de Publicación:</label>
+      <input type="date" id="fecha" name="fecha" required>
+    </div>
+    <div>
+      <label for="editorial">Editorial ID:</label>
+      <input type="number" id="editorial" name="editorial" required>
+    </div>
+    <div>
+      <label for="genero">Género:</label>
+      <input type="text" id="genero" name="genero" required>
+    </div>
+    <div>
+      <label for="descripcion">Descripción:</label>
+      <textarea id="descripcion" name="descripcion" required></textarea>
+    </div>
+    <button type="submit">Subir Libro</button>
+  </form>
+
+  <script src="../js/subir.js"></script>
+</body>
+</html>

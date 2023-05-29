@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+.form-container h2 {
+  margin-top: 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.book-card-container {
+  padding-top: 3% ;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  flex: 0 0 25.00%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #b3c7e6; /* Pastel blue background color */
+  border-radius: 10px; /* Rounded corners */
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1%;
+  box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+.book-card img {
+  align-self: center;
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.book-card .book-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.book-card .book-author {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.book-card .book-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+ul.menu {
+  flex: 0 0 25.00%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center vertically */
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+}
+
+ul.menu li {
+  margin-bottom: 10px;
+}
+
+ul.menu li button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
